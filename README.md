@@ -7,11 +7,29 @@ GUI for the asus-fan-control project
 
 
 # Installation:
- * If you have a previous version installed delete afc-gui and MAINGUI.glade from ~/.local/bin/ and then install using one of the methods below
 
- * Using [GitPack](https://github.com/dominiksalvet/gitpack): `sudo gitpack install https://github.com/Greifent/afc-gui-gtk3.git`, then just type in the terminal `afc-gui` or look for afc-gui in your launcher.
+ * Using [GitPack](https://github.com/dominiksalvet/gitpack): `sudo gitpack install https://github.com/Greifent/afc-gui-gtk3.git`, then just type in the terminal `afc-gui-gtk3` or look for afc-gui-gtk3 in your launcher.
 
- * Using git clone: `git clone https://github.com/Greifent/afc-gui-gtk3.git`, navigate afc-gui/prgm/, move afc-gui to `/usr/bin/` the MAINGUI.glade to `/usr/share/afc-gui-gtk3` (you will have to create the afc-gui-gtk3 folder) and afc-gui.desktop to `/usr/share/applications/`, execute the afc-gui or look for afc-gui in the launcher of your distribution
+ * Using git clone: `git clone https://github.com/Greifent/afc-gui-gtk3.git`, navigate afc-gui/prgm/, move afc-gui to `/usr/bin/` the MAINGUI.glade to `/usr/share/afc-gui-gtk3` (you will have to create the afc-gui-gtk3 folder) and afc-gui.desktop to `/usr/share/applications/`, execute the `afc-gui-gtk3` or look for afc-gui-gtk3 in the launcher of your distribution
+ 
+ * Manual installation:
+ 
+To install just run these commands
+```
+git clone https://github.com/Greifent/afc-gui-gtk3.git
+cd afc-gui-gtk3/src/
+sudo cp afc-gui /usr/bin/
+sudo mkdir /usr/share/afc-gui-gtk3
+sudo cp MAINGUI.glade /usr/share/afc-gui-gtk3/
+sudo cp afc-gui-gtk3.desktop /usr/share/applications/
+```
+To uninstall these:
+```
+sudo rm /usr/bin/afc-gui-gtk3
+sudo rm -r /usr/share/afc-gui-gtk3/
+sudo rm /usr/share/applications/afc-gui-gtk3.desktop
+```
+To update the version run the uninstall commands, then the install ones.
 
 # Photo:
 
