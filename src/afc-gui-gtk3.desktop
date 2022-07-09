@@ -3,5 +3,5 @@ Encoding=UTF-8
 Version=1.0
 Type=Application
 Terminal=false
-Exec=/usr/bin/afc-gui
-Name=afc-gui
+Exec=/usr/bin/afc-gui-gtk3
+Name=afc-gui-gtk3
