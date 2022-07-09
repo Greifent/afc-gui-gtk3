@@ -6,6 +6,6 @@
 #--------------------------------------------------------------------------
 
 echo 'removing files and directories'
-rm /usr/bin/afc-gui
-rm -r /usr/share/afc-gui
+rm /usr/bin/afc-gui-gtk3
+rm -r /usr/share/afc-gui-gtk3
 rm /usr/share/applications/afc-gui.desktop
