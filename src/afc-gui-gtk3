@@ -26,7 +26,7 @@ if testing:
 	pathglade = pathhome + "/gitRepository/afc-gui-gtk3/prgm/MAINGUI.glade"
 
 else:
-	pathglade = "/usr/share/afc-gui/MAINGUI.glade"
+	pathglade = "/usr/share/afc-gui-gtk3/MAINGUI.glade"
 
 #==========================================================================================
 #Define function for adjusting text
