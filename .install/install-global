@@ -6,7 +6,8 @@
 #--------------------------------------------------------------------------
 
 echo 'making directories'
-mkdir /usr/share/afc-gui
+mkdir /usr/share/afc-gui-gtk3
+
 
 echo 'copying files'
 cp src/afc-gui-gtk3 /usr/bin
