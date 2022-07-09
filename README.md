@@ -1,5 +1,6 @@
 # afc-gui
 GUI for the asus-fan-control project
+There is also a Gtk4 version if you prefer that, it can be found [here](https://github.com/Greifent/afc-gui)
 
 # Dependency:
 * asus-fan-control installed
