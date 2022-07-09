@@ -19,7 +19,7 @@ off = "85 86 87 88 89 90 91 92"
 #==========================================================================================
 # Change .glade path if testing or not
 
-testing = True
+testing = False
 
 if testing:
 	pathhome = os.environ['HOME']
